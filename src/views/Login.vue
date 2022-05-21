@@ -49,7 +49,6 @@
                                 this.timer = setTimeout(()=>{   //设置延迟执行
                                     this.$router.push("/manage/home")
                                 },1000);
-
                             }
                         })
                     } else {

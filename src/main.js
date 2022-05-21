@@ -7,6 +7,8 @@ import './plugins/element.js'
 import './assets/gloable.css'
 import ElementUI from 'element-ui';
 import request from "@/utils/request";
+import * as echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 
